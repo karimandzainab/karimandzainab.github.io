@@ -1,48 +1,16 @@
-# 🌹 Karim & Zainab — Wedding Invitation
+# React + Vite
 
-A beautiful, elegant, and responsive wedding invitation website created for **Karim & Zainab**.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-The website starts with a dedicated invitation cover. Guests can click **Open Invitation** to enter the full wedding website with all the event details.
+Currently, two official plugins are available:
 
-## 💍 Wedding Details
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-|              |                                                          |
-| ------------ | -------------------------------------------------------- |
-| **Couple**   | Karim & Zainab                                           |
-| **Date**     | September 11, 2026                                       |
-| **Time**     | 7:00 PM                                                  |
-| **Venue**    | Andalusia Venue                                          |
-| **Location** | [Google Maps](https://maps.app.goo.gl/e6F1WNEMqc2vmZsi6) |
+## React Compiler
 
----
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## ✨ Features
+## Expanding the ESLint configuration
 
-* 🌹 Elegant wedding invitation cover
-* 💌 Open Invitation experience
-* ❤️ Karim & Zainab wedding details
-* ⏳ Live countdown to the wedding
-* 📖 Our Story section
-* 📅 Wedding date and time
-* 📍 Clear venue and Google Maps directions
-* 📸 Responsive photo gallery
-* 📝 RSVP form
-* 💕 RSVP confirmation screen
-* 🌹 Elegant final closing section
-* 📱 Fully responsive design
-* ✨ Smooth animations and transitions
-* 🚀 Ready for GitHub Pages deployment
-
----
-
-## 🛠️ Technologies
-
-* **React**
-* **Vite**
-* **JavaScript**
-* **HTML5**
-* **CSS3**
-* **Git & GitHub**
-* **GitHub Pages**
-
-No backend is required for the current version.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
