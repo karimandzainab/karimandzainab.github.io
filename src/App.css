@@ -178,7 +178,6 @@
 }
 
 .day {
-  font-family: "Cormorant Garamond", serif;
 
   font-size: 65px;
 
@@ -713,10 +712,12 @@
 }
 
 .detail-card strong {
-
+  display: block;
   font-size: 20px;
 
   font-weight: 500;
+
+  margin-bottom: 7px;
 }
 
 .dark-button {

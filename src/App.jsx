@@ -58,7 +58,7 @@ function App() {
           </div>
 
           <div className="venue">
-            ANDALUSIA VENUE
+            ANDALUSIA HALL
           </div>
 
         </div>
